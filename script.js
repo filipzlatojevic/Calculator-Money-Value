@@ -16,7 +16,7 @@ function inflationCalculator() {
 
     let newElement = document.createElement('div');
     newElement.className = 'new-value';
-    newElement.innerText = `Today's ${money}€ is worth as much as ${worth}€ for ${years} years.`;
+    newElement.innerText = `Today's ${money}€ is worth as much as ${worth}€ in ${years} years.`;
 
     if (inflationRate && money && years) {
         document.querySelector('.container').appendChild(newElement);
